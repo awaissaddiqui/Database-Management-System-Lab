@@ -1,0 +1,23 @@
+[33mcommit 68811fb2da0a1175592176fdd4eda9c93c3ba9ef[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Awais_Saddiqui <awaissaddiqui143@gmail.com>
+Date:   Mon May 6 16:51:10 2024 +0500
+
+    Dashboard image added
+
+[33mcommit 675f2cd878f3a27e94826b8bf1e09cf5bc15df00[m
+Author: Awais_Saddiqui <awaissaddiqui143@gmail.com>
+Date:   Mon May 6 16:45:56 2024 +0500
+
+    table styles
+
+[33mcommit a847d06dc80d4a644aeecf2779b446e9a0116d7d[m
+Author: Awais_Saddiqui <awaissaddiqui143@gmail.com>
+Date:   Mon May 6 16:39:37 2024 +0500
+
+    Adding style to border in views
+
+[33mcommit c6d3318110ab2df66de55f2272d184e8fa1ac181[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Awais_Saddiqui <awaissaddiqui143@gmail.com>
+Date:   Sun May 5 17:06:26 2024 +0500
+
+    Implement the employee and department relation in laravel
