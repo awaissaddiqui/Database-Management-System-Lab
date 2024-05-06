@@ -33,6 +33,6 @@ Now you have successfully set up a Laravel project with authentication and seede
 
 ## Learning Laravel
 Laravel has the most extensive and thorough documentation and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
+# Output
 <img src="./Dashboard.png" alt="Awais Saddiqui">
 <img src="./Dashboard2.png" alt="Awais Saddiqui">
