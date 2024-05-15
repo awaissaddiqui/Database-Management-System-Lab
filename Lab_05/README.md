@@ -5,31 +5,41 @@ Before you begin, make sure you have Composer installed on your system. You can 
 
 
 ## Step 1: Create Laravel Project
-``` composer create-project laravel/laravel project-name ```
+``` bash
+ composer create-project laravel/laravel project-name
+  ```
 
 # Change your database name and database in .env file .
 
 ## Step 2: Install Laravel Breeze for Authentication
-``` 
+``` bash
  composer require laravel/ui --dev 
  php artisan ui vue --auth 
  composer require laravel/breeze --dev 
  php artisan breeze:install 
 ```
 ## Step 3: Create Department Model
-``` php artisan make:model Department ```
+``` bash
+php artisan make:model Department 
+```
 write your code in Department Model
 
 ## Step 4: Create Employees Table Migration
-``` php artisan make:migration create_deparments_table ```
+``` bash 
+php artisan make:migration create_deparments_table 
+```
 Write your code for the departments table.
 
 ## Step 5: make Departments Seeder
-``` php artisan make:seeder DepartmentSeeder ```
+``` bash 
+php artisan make:seeder DepartmentSeeder 
+```
 Insert data into departments table.
 
 ## Step 6: Seed  Deparments
-``` php artisan db:seed --class=DepartmentSeeder ```
+``` bash
+ php artisan db:seed --class=DepartmentSeeder 
+ ```
 
 This will seed the database with sample data for departments and employees.
 
@@ -37,19 +47,27 @@ This will seed the database with sample data for departments and employees.
 ``` php artisan migrate ```
 
 ## Step 8: Create Employee Model
-``` php artisan make:model Employee ```
+``` bash
+ php artisan make:model Employee 
+ ```
 write your code in Employee Model
 
 ## Step 9: Create Employees Table Migration
-``` php artisan make:migration create_employees_table ```
+``` bash
+ php artisan make:migration create_employees_table 
+ ```
 Write your code for the employees table.
 
 ## Step 10: make Employees Seeder
-``` php artisan make:seeder EmployeeSeeder ```
+``` bash 
+php artisan make:seeder EmployeeSeeder 
+```
 Insert data into Employees table.
 
 ## Step 11: Seed  Employees
-``` php artisan db:seed --class=DepartmentSeeder ```
+``` bash 
+php artisan db:seed --class=DepartmentSeeder 
+```
 
 ## Step 12: Run Database Migrations
 ``` php artisan migrate ```
@@ -59,16 +77,17 @@ Insert data into Employees table.
 
 ## Step 14: Make a new route 
 make a new route for a EmployeeController or simple add this code to your /routes/web.php 
-``` Route::get('/dashboard', [EmployeeController::class, 'index'])->name('dashboard'); ```
+
+``` bash
+ Route::get('/dashboard', [EmployeeController::class, 'index'])->name('dashboard'); 
+ ```
 
 Replace the function name "index" according to your function in EmployeeController .
 
 ## Step 15: Display your data on screen.
 make a new file in views.
+
 ``` /resources/views/dashboard.blade.php ```
-
-
-
 
 
 ## Learning Laravel
