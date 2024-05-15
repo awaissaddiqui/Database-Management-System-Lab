@@ -11,7 +11,7 @@ class EmployeeController extends Controller
     public function index()
     {
         $employees = DB::select('
-        SELECT employees.name AS employee_name, departments.name AS department_name, jobDetail, id
+        SELECT employees.name AS employee_name, departments.name AS department_name, jobDetail, id AS depID
         FROM employees
         INNER JOIN departments ON employees.departmentID = departments.departmentID
     ');
