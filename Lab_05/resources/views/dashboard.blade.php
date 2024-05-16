@@ -131,25 +131,19 @@
     </form>
 </div>
 
+<footer>
+    <div class="p-6 bg-white dark:bg-gray-800">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="p-6 bg-white dark:bg-gray-800">
+                    <p class="text-center text-gray-400 dark:text-gray-300">Awais Saddiqui </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </x-app-layout>
 
-<script>
-    // document.addEventListener('DOMContentLoaded', (event) => {
-    //     const form = document.getElementById('submitForm');
-    //     const emp = document.getElementById('employee_name');
-    //     const dep = document.getElementById('department_name');
-    //     const job = document.getElementById('job_title');
-    
-    //     form.addEventListener('submit', (e) => {
-    //         e.preventDefault();
-    //         if (emp.value === "" || dep.value === "" || job.value === "") {
-    //             document.querySelector('.errorMessage').innerHTML = "Please fill all the fields";
-    //         } else {
-    //             document.querySelector('.errorMessage').innerHTML = "";
-    //             form.submit();
-    //         }
-    //     });
-    // });
-    </script>
+
     
 

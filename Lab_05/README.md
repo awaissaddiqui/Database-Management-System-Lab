@@ -22,26 +22,26 @@ Before you begin, make sure you have Composer installed on your system. You can 
 ``` bash
 php artisan make:model Department 
 ```
-write your code in Department Model
+write your code in Department Model ``` app/Models/Department.php```
 
 ## Step 4: Create Employees Table Migration
 ``` bash 
 php artisan make:migration create_deparments_table 
 ```
-Write your code for the departments table.
+Write your code for the departments table. ``` database/migrations/_create_departments_table.php```
 
 ## Step 5: make Departments Seeder
 ``` bash 
 php artisan make:seeder DepartmentSeeder 
 ```
-Insert data into departments table.
+Insert data into departments table. ``` database/seeders/DepartmentSeeder.php```
 
 ## Step 6: Seed  Deparments
 ``` bash
  php artisan db:seed --class=DepartmentSeeder 
  ```
 
-This will seed the database with sample data for departments and employees.
+This will seed the database with sample data for departments.
 
 ## Step 7: Run Database Migrations
 ``` php artisan migrate ```
@@ -50,19 +50,19 @@ This will seed the database with sample data for departments and employees.
 ``` bash
  php artisan make:model Employee 
  ```
-write your code in Employee Model
+write your code in Employee Model ``` app/Models/Employee.php```
 
 ## Step 9: Create Employees Table Migration
 ``` bash
  php artisan make:migration create_employees_table 
  ```
-Write your code for the employees table.
+Write your code for the employees table.  ``` database/migrations/_create_employees_table.php```
 
 ## Step 10: make Employees Seeder
 ``` bash 
 php artisan make:seeder EmployeeSeeder 
 ```
-Insert data into Employees table.
+Insert data into Employees table. ``` database/seeders/EmployeeSeeder.php```
 
 ## Step 11: Seed  Employees
 ``` bash 
@@ -82,7 +82,7 @@ make a new route for a EmployeeController or simple add this code to your /route
  Route::get('/dashboard', [EmployeeController::class, 'index'])->name('dashboard'); 
  ```
 
-Replace the function name "index" according to your function in EmployeeController .
+Replace the function name "index" according to your function in EmployeeController . ```app/Http/Controllers/EmployeeController.php```
 
 ## Step 15: Display your data on screen.
 make a new file in views.

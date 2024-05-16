@@ -132,5 +132,9 @@
             <p>Add new employees to your database with ease.</p>
        
     </div>
+    <footer>
+        <p>&copy; 2021 Employee Management System</p>
+        <p>Designed by: Awais Saddiqui</p>
+    </footer>
 </body>
 </html>
